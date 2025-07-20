@@ -448,13 +448,17 @@ a{
 }
 
 .footer__center-one{
-    margin-right: 120px;
+    margin-right: 30px;
 }
 
 .footer__list{
     list-style: none;
     margin-bottom: 10px;
     font-size: 18px;
+}
+
+.footer__center-two{
+    margin-left: 30px;
 }
 
 .footer__two-title{
