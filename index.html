@@ -18,9 +18,19 @@
 
     <!-- NavBar -->
 
-    <section class="nav">
-
-    </section>
+    <nav class="nav">
+      <div class="nav__left">
+        <img class="nav__title" src="images/logo.png" alt="Logipsum Logo">
+      </div>
+      <div class="nav__right">
+        <ul class="nav__ul">
+          <li class="nav__list"><a href>Home</a></li>
+          <li class="nav__list"><a href>About Us</a></li>
+          <li class="nav__list"><a href>Contact Us</a></li>
+          <li class="nav__list"><a href>Blog</a></li>
+        </ul>
+      </div>
+    </nav>
 
     <!-- Header Content -->
 
@@ -61,12 +71,10 @@
       </div>
       <div class="feature__image-container">
         <img class="feature__image" src="images/features.jpg" alt="feature">
-      </div>   
+      </div>
     </section>
 
-
-        <!-- Mid Content --> 
-
+    <!-- Mid Content -->
 
     <section class="cta">
       <h3 class="cta__title">Laern More About Us By Contracting Us</h3>
@@ -77,8 +85,7 @@
       <button class="cta__button cta__button--primary">Learn More</button>
     </section>
 
-
-      <!-- Video Content -->
+    <!-- Video Content -->
     <section class="video">
       <h3 class="video__title">Grow Your Children's Future</h3>
       <p class="video__desc">Lorem, ipsum dolor sit amet consectetur adipisicing
@@ -103,9 +110,52 @@
     <section class="programs">
       <h2 class>Explore Our State Of Art Facilities and Enriching Learning</h2>
       <div class="programs__cards">
-        <div class="programs__card"></div>
-        <div class="programs__card"></div>
-        <div class="programs__card"></div>
+        <div class="programs__card">
+          <img class="programs__card-image" src="images/program1.jpg"
+            alt="Learning Activities">
+          <h3>Extracurricular Engaging
+            Activities for Holistic
+            Student Development
+          </h3>
+          <p class="programs__card-desc">
+            Our school offers modern
+            facilities designed to enhance
+            learning experience.
+          </p>
+          <button class="programs__button">Learn More</button>
+        </div>
+        <div class="programs__card">
+          <img class="programs__card-image" src="images/program2.jpg"
+            alt="Learning Activities">
+          <h3>Diverse Academic
+            Programs Tailored to
+            Student Interests and
+            Goals
+          </h3>
+          <p class="programs__card-desc">
+            We provide a wide range of
+            academic programa to cater
+            to every student
+          </p>
+          <button class="programs__button">Learn More</button>
+
+        </div>
+        <div class="programs__card">
+          <img class="programs__card-image" src="images/program3.jpg"
+            alt="Learning Activities">
+          <h3>Dedicated Statt
+            Committed to Student
+            Success and Growth
+          </h3>
+          <p class="programs__card-desc">
+            Our experienced educators
+            passionate about are
+            each student's nurturing
+            potential
+          </p>
+          <button class="programs__button">Learn More</button>
+
+        </div>
       </div>
     </section>
 
@@ -113,7 +163,7 @@
 
     <section class="element">
       <div class="element__left">
-        <div class="element__placeholder"></div>
+        <img class="element__image" src="images/formimage.jpg" alt="Form Image">
       </div>
       <div class="element__right">
         <h2>Sign Up Today Now!</h2>
@@ -130,15 +180,16 @@
 
           <div class="element__form-group">
             <label for="username">Username : </label>
-            <input type="text" name="" id="username" placeholder="Enter username" />
+            <input type="text" name id="username"
+              placeholder="Enter username" />
           </div>
           <div class="element__form-group">
             <label for="course">Select Course : </label>
-            <select name="" id="course">
-              <option value="">Choose a course...</option>
-              <option value="">HTML & CSS</option>
-              <option value="">JavaScript</option>
-              <option value="">React</option>
+            <select name id="course">
+              <option value>Choose a course...</option>
+              <option value>HTML & CSS</option>
+              <option value>JavaScript</option>
+              <option value>React</option>
             </select>
           </div>
           <button type="submit" class="element__button">Submit Form</button>
@@ -146,5 +197,44 @@
         </form>
       </div>
     </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer__left">
+        <img class="footer__logo" src="images/logo.png" alt="Logoipsum Logo">
+        <p class="footer__desc">Empower the next generation of learners with
+          innovative educational solutions</p>
+        <button class="footer__button">Learn More</button>
+      </div>
+      <div class="footer__center">
+        <div class="footer__center-one">
+          <h3 class="footer__one-title">Quick Links</h3>
+          <ul class="footer__ul">
+            <li class="footer__list"><a href>About Us</a></li>
+            <li class="footer__list"><a href>Features</a></li>
+            <li class="footer__list"><a href>Programs</a></li>
+            <li class="footer__list"><a href>Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer__center-two">
+          <h3 class="footer__two-title">Resources</h3>
+          <ul class="footer__ul">
+            <li class="footer__list"><a href>Help Center</a></li>
+            <li class="footer__list"><a href>Terms of Use</a></li>
+            <li class="footer__list"><a href>Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__right">
+        <h3 class="footer__right-title">Connect with us</h3>
+        <div class="footer__logos">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+      </div>
+    </footer>
+
   </body>
 </html>
